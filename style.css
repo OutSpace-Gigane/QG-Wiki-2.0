@@ -1,0 +1,41 @@
+@font-face {
+    font-family: jetbrainsmono;
+    src: url(Font/JetBrainsMonoNerdFont-Bold.ttf);
+}
+
+body {
+    background-color: darkslategray;
+}
+
+* {
+    font-family: jetbrainsmono;
+    color: lightgrey;
+}
+
+.dropdown button {
+    font-size: 25px;
+    padding: 0px 30px;
+    background-color: burlywood;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0px 30px;
+    padding: 10px;
+}
+
+.dropdown .content{
+    display: none;
+    box-shadow: 2px 2px 5px black;
+    position: absolute;
+    background-color: bisque;
+    min-width: 50px;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
